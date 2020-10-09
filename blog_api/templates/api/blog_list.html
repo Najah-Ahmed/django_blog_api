@@ -1,0 +1,9 @@
+<h1>
+    All blogs</h1>
+{% for blog in object_list %}
+<ul>
+    <li>Title: {{ blog.title }}</li>
+    <li>Body: {{ blog.body }}</li>
+    <li>Created_at: {{ blog.created_at }}</li>
+</ul>
+{% endfor %}
