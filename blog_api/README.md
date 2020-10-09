@@ -1,0 +1,3 @@
+. api
+. blog
+.template sample 
